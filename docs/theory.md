@@ -1,7 +1,14 @@
 # Theoretical Questions  
 
 1. **What is a test case and what elements should it contain?**  
-   Steps followed to verify if a system's functionality works as expected.  
+   A test case is a set of steps followed to verify whether a system's functionality works as expected. It should contain:
+- **Test case ID**: A unique identifier for the test case.
+- **Description**: A brief explanation of what the test case is verifying.
+- **Preconditions**: Any requirements or conditions that must be met before executing the test.
+- **Test steps**: Detailed steps to execute the test.
+- **Expected results**: The expected outcome of the test.
+- **Actual results**: The actual outcome after executing the test.
+- **Status**: Whether the test passed or failed.  
 
 2. **Difference between functional testing and load testing. Provide an example of each.**  
    - **Functional testing**: Verifies that the system performs as expected, focusing on business logic and rules.  
@@ -28,3 +35,13 @@
    - **SQL Injection Testing**: Attempt to manipulate the database with malicious input.  
    - **Authentication/Authorization Testing**: Check if a user can access unauthorized resources.  
    - **Brute Force Testing**: Use tools like Hydra or Burp Suite to guess passwords.  
+
+
+## SQL Database Testing
+- Basic principles of SQL queries, how to create tables, insert data, and run common queries like `UPDATE` and `SELECT`.
+
+## Web Application Testing
+- Importance of testing UI responsiveness and security risks like exposure of server details.
+
+## Automation with Selenium
+- Explanation of how Selenium can automate web interaction, including navigating forms and handling dynamic content.
